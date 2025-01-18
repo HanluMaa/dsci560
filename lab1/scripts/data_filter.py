@@ -45,7 +45,6 @@ for headline in headlines:
     title.append(headline['title'])
     link.append(headline['href'])
 
-print('Storing market data')
 news_data = zip(timestamp, title, link)
 
 print('Create CSV for news data')
